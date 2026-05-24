@@ -1,0 +1,566 @@
+=== Ferry Transport Simulation ===
+Vehicles: 12 Cars, 10 Minibuses, 8 Trucks | Ferry cap: 20 units
+
+[Time    0] Ferry starts at Side B
+[Time    0] Ferry loading begins at Side B
+[Time    0] Car-0 created on Side B
+[Time    0] Car-0 approaching toll on Side B
+[Time    0] Car-0 passed toll on Side B
+[Time    0] Car-1 created on Side A
+[Time    0] Car-1 approaching toll on Side A
+[Time    0] Car-1 passed toll on Side A
+[Time    0] Car-2 created on Side B
+[Time    0] Car-2 approaching toll on Side B
+[Time    0] Car-2 passed toll on Side B
+[Time    0] Car-3 created on Side A
+[Time    0] Car-3 approaching toll on Side A
+[Time    0] Car-3 passed toll on Side A
+[Time    0] Car-4 created on Side A
+[Time    0] Car-4 approaching toll on Side A
+[Time    0] Car-5 created on Side A
+[Time    0] Car-5 approaching toll on Side A
+[Time    0] Car-6 created on Side B
+[Time    0] Car-6 approaching toll on Side B
+[Time    0] Car-7 created on Side B
+[Time    0] Car-7 approaching toll on Side B
+[Time    0] Car-8 created on Side A
+[Time    0] Car-8 approaching toll on Side A
+[Time    0] Car-9 created on Side A
+[Time    0] Car-9 approaching toll on Side A
+[Time    0] Car-10 created on Side A
+[Time    0] Car-10 approaching toll on Side A
+[Time    0] Car-11 created on Side B
+[Time    0] Car-11 approaching toll on Side B
+[Time    8] Minibus-12 created on Side A
+[Time    8] Minibus-12 approaching toll on Side A
+[Time    8] Minibus-13 created on Side A
+[Time    8] Minibus-13 approaching toll on Side A
+[Time    8] Minibus-14 created on Side B
+[Time    8] Minibus-14 approaching toll on Side B
+[Time    8] Minibus-15 created on Side B
+[Time    8] Minibus-15 approaching toll on Side B
+[Time    8] Minibus-16 created on Side A
+[Time    8] Minibus-16 approaching toll on Side A
+[Time    8] Minibus-17 created on Side B
+[Time    8] Minibus-17 approaching toll on Side B
+[Time    8] Minibus-18 created on Side A
+[Time    8] Minibus-18 approaching toll on Side A
+[Time    8] Minibus-19 created on Side A
+[Time    8] Minibus-19 approaching toll on Side A
+[Time    8] Minibus-20 created on Side A
+[Time    8] Minibus-20 approaching toll on Side A
+[Time    8] Minibus-21 created on Side A
+[Time    8] Minibus-21 approaching toll on Side A
+[Time    8] Truck-22 created on Side A
+[Time    8] Truck-22 approaching toll on Side A
+[Time    8] Truck-23 created on Side B
+[Time    8] Truck-23 approaching toll on Side B
+[Time    8] Truck-24 created on Side A
+[Time    8] Truck-24 approaching toll on Side A
+[Time    8] Truck-25 created on Side B
+[Time    8] Truck-25 approaching toll on Side B
+[Time    8] Truck-26 created on Side A
+[Time    8] Truck-26 approaching toll on Side A
+[Time    8] Truck-27 created on Side B
+[Time    8] Truck-27 approaching toll on Side B
+[Time    8] Truck-28 created on Side B
+[Time    8] Truck-28 approaching toll on Side B
+[Time    8] Truck-29 created on Side B
+[Time    8] Truck-29 approaching toll on Side B
+[Time  100] Ferry loading begins at Side B
+[Time  139] Car-4 passed toll on Side A
+[Time  140] Car-1 joined queue on Side A (units=1)
+[Time  177] Car-5 passed toll on Side A
+[Time  177] Car-3 joined queue on Side A (units=1)
+[Time  182] Car-6 passed toll on Side B
+[Time  182] Car-0 joined queue on Side B (units=1)
+[Time  198] Car-7 passed toll on Side B
+[Time  199] Car-2 joined queue on Side B (units=1)
+[Time  200] Ferry loading begins at Side B
+[Time  252] Car-8 passed toll on Side A
+[Time  252] Car-4 joined queue on Side A (units=1)
+[Time  275] Ferry loaded Car-0 (load=1/20)
+[Time  275] Car-0 boarded ferry (waited 93 ms)
+[Time  364] Car-9 passed toll on Side A
+[Time  364] Car-5 joined queue on Side A (units=1)
+[Time  369] Ferry loaded Car-2 (load=2/20)
+[Time  369] Ferry departed from Side B with 2 units (2 vehicles)
+[Time  369] Car-2 boarded ferry (waited 170 ms)
+[Time  378] Car-11 passed toll on Side B
+[Time  378] Car-7 joined queue on Side B (units=1)
+[Time  379] Minibus-14 passed toll on Side B
+[Time  379] Car-6 joined queue on Side B (units=1)
+[Time  434] Car-10 passed toll on Side A
+[Time  434] Car-8 joined queue on Side A (units=1)
+[Time  494] Minibus-15 passed toll on Side B
+[Time  494] Minibus-14 joined queue on Side B (units=2)
+[Time  495] Minibus-12 passed toll on Side A
+[Time  495] Car-9 joined queue on Side A (units=1)
+[Time  577] Minibus-17 passed toll on Side B
+[Time  577] Car-11 joined queue on Side B (units=1)
+[Time  596] Minibus-13 passed toll on Side A
+[Time  596] Car-10 joined queue on Side A (units=1)
+[Time  607] Minibus-16 passed toll on Side A
+[Time  607] Minibus-12 joined queue on Side A (units=2)
+[Time  642] Truck-23 passed toll on Side B
+[Time  642] Minibus-15 joined queue on Side B (units=2)
+[Time  709] Truck-25 passed toll on Side B
+[Time  709] Minibus-17 joined queue on Side B (units=2)
+[Time  723] Minibus-18 passed toll on Side A
+[Time  723] Minibus-16 joined queue on Side A (units=2)
+[Time  789] Minibus-19 passed toll on Side A
+[Time  789] Minibus-13 joined queue on Side A (units=2)
+[Time  807] Truck-27 passed toll on Side B
+[Time  807] Truck-23 joined queue on Side B (units=3)
+[Time  809] Truck-28 passed toll on Side B
+[Time  809] Truck-25 joined queue on Side B (units=3)
+[Time  886] Minibus-20 passed toll on Side A
+[Time  886] Minibus-18 joined queue on Side A (units=2)
+[Time  920] Minibus-21 passed toll on Side A
+[Time  920] Minibus-19 joined queue on Side A (units=2)
+[Time  930] Truck-29 passed toll on Side B
+[Time  930] Truck-28 joined queue on Side B (units=3)
+[Time  987] Truck-27 joined queue on Side B (units=3)
+[Time 1037] Truck-29 joined queue on Side B (units=3)
+[Time 1059] Truck-22 passed toll on Side A
+[Time 1059] Minibus-20 joined queue on Side A (units=2)
+[Time 1107] Truck-24 passed toll on Side A
+[Time 1107] Minibus-21 joined queue on Side A (units=2)
+[Time 1166] Truck-26 passed toll on Side A
+[Time 1166] Truck-22 joined queue on Side A (units=3)
+[Time 1169] Ferry arrived at Side A
+[Time 1169] Ferry unloading begins at Side A
+[Time 1169] Car-0 arrived at Side A
+[Time 1169] Car-0 unloaded at Side A
+[Time 1169] Car-0 waiting 740 ms before return
+[Time 1169] Car-2 arrived at Side A
+[Time 1169] Car-2 waiting 469 ms before return
+[Time 1169] Car-2 unloaded at Side A
+[Time 1169] Ferry unloading complete at Side A
+[Time 1169] Ferry loading begins at Side A
+[Time 1217] Truck-24 joined queue on Side A (units=3)
+[Time 1261] Ferry loaded Car-1 (load=1/20)
+[Time 1261] Car-1 boarded ferry (waited 1121 ms)
+[Time 1323] Truck-26 joined queue on Side A (units=3)
+[Time 1398] Ferry loaded Car-3 (load=2/20)
+[Time 1398] Car-3 boarded ferry (waited 1221 ms)
+[Time 1498] Ferry loaded Car-4 (load=3/20)
+[Time 1498] Car-4 boarded ferry (waited 1246 ms)
+[Time 1609] Ferry loaded Car-5 (load=4/20)
+[Time 1609] Car-5 boarded ferry (waited 1245 ms)
+[Time 1639] Car-2 approaching toll on Side A
+[Time 1639] Car-2 passed toll on Side A
+[Time 1711] Ferry loaded Car-8 (load=5/20)
+[Time 1711] Car-8 boarded ferry (waited 1277 ms)
+[Time 1803] Car-2 joined queue on Side A (units=1)
+[Time 1839] Ferry loaded Car-9 (load=6/20)
+[Time 1839] Car-9 boarded ferry (waited 1344 ms)
+[Time 1910] Car-0 approaching toll on Side A
+[Time 1910] Car-0 passed toll on Side A
+[Time 1961] Ferry loaded Car-10 (load=7/20)
+[Time 1961] Car-10 boarded ferry (waited 1365 ms)
+[Time 2039] Ferry loaded Minibus-12 (load=9/20)
+[Time 2039] Minibus-12 boarded ferry (waited 1432 ms)
+[Time 2071] Car-0 joined queue on Side A (units=1)
+[Time 2174] Ferry loaded Minibus-16 (load=11/20)
+[Time 2174] Minibus-16 boarded ferry (waited 1451 ms)
+[Time 2314] Ferry loaded Minibus-13 (load=13/20)
+[Time 2314] Minibus-13 boarded ferry (waited 1525 ms)
+[Time 2407] Ferry loaded Minibus-18 (load=15/20)
+[Time 2407] Minibus-18 boarded ferry (waited 1521 ms)
+[Time 2499] Ferry loaded Minibus-19 (load=17/20)
+[Time 2499] Minibus-19 boarded ferry (waited 1579 ms)
+[Time 2626] Ferry loaded Minibus-20 (load=19/20)
+[Time 2626] Minibus-20 boarded ferry (waited 1567 ms)
+[Time 2753] Ferry loaded Car-2 (load=20/20)
+[Time 2753] Ferry departed from Side A with 20 units (14 vehicles)
+[Time 2753] Car-2 boarded ferry (waited 950 ms)
+[Time 3553] Ferry arrived at Side B
+[Time 3553] Ferry unloading begins at Side B
+[Time 3553] Car-1 arrived at Side B
+[Time 3553] Car-1 unloaded at Side B
+[Time 3553] Car-3 arrived at Side B
+[Time 3553] Car-3 unloaded at Side B
+[Time 3553] Car-3 waiting 913 ms before return
+[Time 3553] Car-4 arrived at Side B
+[Time 3553] Car-4 waiting 945 ms before return
+[Time 3553] Car-1 waiting 941 ms before return
+[Time 3553] Car-4 unloaded at Side B
+[Time 3553] Car-5 arrived at Side B
+[Time 3553] Car-5 waiting 806 ms before return
+[Time 3553] Car-5 unloaded at Side B
+[Time 3553] Car-8 arrived at Side B
+[Time 3553] Car-8 waiting 851 ms before return
+[Time 3553] Car-8 unloaded at Side B
+[Time 3553] Car-9 arrived at Side B
+[Time 3553] Car-9 waiting 593 ms before return
+[Time 3553] Car-9 unloaded at Side B
+[Time 3553] Car-10 arrived at Side B
+[Time 3553] Car-10 waiting 417 ms before return
+[Time 3553] Car-10 unloaded at Side B
+[Time 3553] Minibus-12 arrived at Side B
+[Time 3553] Minibus-12 unloaded at Side B
+[Time 3553] Minibus-12 waiting 322 ms before return
+[Time 3553] Minibus-16 arrived at Side B
+[Time 3553] Minibus-16 waiting 265 ms before return
+[Time 3553] Minibus-16 unloaded at Side B
+[Time 3553] Minibus-13 arrived at Side B
+[Time 3553] Minibus-13 unloaded at Side B
+[Time 3553] Minibus-13 waiting 559 ms before return
+[Time 3553] Minibus-18 arrived at Side B
+[Time 3553] Minibus-18 waiting 672 ms before return
+[Time 3553] Minibus-18 unloaded at Side B
+[Time 3553] Minibus-19 arrived at Side B
+[Time 3553] Minibus-19 waiting 518 ms before return
+[Time 3553] Minibus-19 unloaded at Side B
+[Time 3553] Minibus-20 arrived at Side B
+[Time 3553] Minibus-20 waiting 521 ms before return
+[Time 3553] Minibus-20 unloaded at Side B
+[Time 3553] Car-2 arrived at Side B
+[Time 3553] Car-2 completed full round trip
+[Time 3553] Car-2 unloaded at Side B
+[Time 3553] Ferry unloading complete at Side B
+[Time 3553] Ferry loading begins at Side B
+[Time 3643] Ferry loaded Car-7 (load=1/20)
+[Time 3643] Car-7 boarded ferry (waited 3265 ms)
+[Time 3736] Ferry loaded Car-6 (load=2/20)
+[Time 3736] Car-6 boarded ferry (waited 3357 ms)
+[Time 3818] Minibus-16 approaching toll on Side B
+[Time 3818] Minibus-16 passed toll on Side B
+[Time 3863] Ferry loaded Minibus-14 (load=4/20)
+[Time 3863] Minibus-14 boarded ferry (waited 3369 ms)
+[Time 3875] Minibus-12 approaching toll on Side B
+[Time 3875] Minibus-12 passed toll on Side B
+[Time 3970] Car-10 approaching toll on Side B
+[Time 3996] Ferry loaded Car-11 (load=5/20)
+[Time 3996] Car-11 boarded ferry (waited 3419 ms)
+[Time 4015] Minibus-16 joined queue on Side B (units=2)
+[Time 4015] Car-10 passed toll on Side B
+[Time 4070] Minibus-19 approaching toll on Side B
+[Time 4070] Minibus-12 joined queue on Side B (units=2)
+[Time 4070] Minibus-19 passed toll on Side B
+[Time 4073] Minibus-20 approaching toll on Side B
+[Time 4111] Minibus-13 approaching toll on Side B
+[Time 4115] Ferry loaded Minibus-15 (load=7/20)
+[Time 4115] Minibus-15 boarded ferry (waited 3473 ms)
+[Time 4132] Car-10 joined queue on Side B (units=1)
+[Time 4132] Minibus-20 passed toll on Side B
+[Time 4145] Car-9 approaching toll on Side B
+[Time 4172] Minibus-19 joined queue on Side B (units=2)
+[Time 4172] Minibus-13 passed toll on Side B
+[Time 4222] Ferry loaded Minibus-17 (load=9/20)
+[Time 4222] Minibus-17 boarded ferry (waited 3513 ms)
+[Time 4224] Minibus-18 approaching toll on Side B
+[Time 4280] Minibus-13 joined queue on Side B (units=2)
+[Time 4280] Car-9 passed toll on Side B
+[Time 4312] Minibus-20 joined queue on Side B (units=2)
+[Time 4312] Minibus-18 passed toll on Side B
+[Time 4313] Ferry loaded Truck-23 (load=12/20)
+[Time 4313] Truck-23 boarded ferry (waited 3506 ms)
+[Time 4358] Car-5 approaching toll on Side B
+[Time 4403] Car-8 approaching toll on Side B
+[Time 4436] Ferry loaded Truck-25 (load=15/20)
+[Time 4436] Truck-25 boarded ferry (waited 3627 ms)
+[Time 4437] Minibus-18 joined queue on Side B (units=2)
+[Time 4437] Car-5 passed toll on Side B
+[Time 4447] Car-9 joined queue on Side B (units=1)
+[Time 4447] Car-8 passed toll on Side B
+[Time 4465] Car-3 approaching toll on Side B
+[Time 4493] Car-1 approaching toll on Side B
+[Time 4497] Car-4 approaching toll on Side B
+[Time 4514] Ferry loaded Truck-28 (load=18/20)
+[Time 4514] Truck-28 boarded ferry (waited 3584 ms)
+[Time 4551] Car-8 joined queue on Side B (units=1)
+[Time 4551] Car-3 passed toll on Side B
+[Time 4573] Car-5 joined queue on Side B (units=1)
+[Time 4573] Car-1 passed toll on Side B
+[Time 4627] Ferry loaded Minibus-16 (load=20/20)
+[Time 4627] Ferry departed from Side B with 20 units (10 vehicles)
+[Time 4627] Minibus-16 boarded ferry (waited 612 ms)
+[Time 4730] Car-3 joined queue on Side B (units=1)
+[Time 4730] Car-4 passed toll on Side B
+[Time 4761] Car-1 joined queue on Side B (units=1)
+[Time 4850] Car-4 joined queue on Side B (units=1)
+[Time 5427] Ferry arrived at Side A
+[Time 5427] Ferry unloading begins at Side A
+[Time 5427] Car-7 arrived at Side A
+[Time 5427] Car-7 unloaded at Side A
+[Time 5427] Car-7 waiting 431 ms before return
+[Time 5427] Car-6 arrived at Side A
+[Time 5427] Car-6 waiting 304 ms before return
+[Time 5427] Car-6 unloaded at Side A
+[Time 5427] Minibus-14 arrived at Side A
+[Time 5427] Minibus-14 unloaded at Side A
+[Time 5427] Minibus-14 waiting 412 ms before return
+[Time 5427] Car-11 arrived at Side A
+[Time 5427] Car-11 waiting 447 ms before return
+[Time 5427] Car-11 unloaded at Side A
+[Time 5427] Minibus-15 arrived at Side A
+[Time 5427] Minibus-15 waiting 613 ms before return
+[Time 5427] Minibus-15 unloaded at Side A
+[Time 5427] Minibus-17 arrived at Side A
+[Time 5427] Minibus-17 unloaded at Side A
+[Time 5427] Truck-23 arrived at Side A
+[Time 5427] Truck-23 waiting 834 ms before return
+[Time 5427] Minibus-17 waiting 816 ms before return
+[Time 5427] Truck-23 unloaded at Side A
+[Time 5427] Truck-25 arrived at Side A
+[Time 5427] Truck-25 waiting 985 ms before return
+[Time 5427] Truck-25 unloaded at Side A
+[Time 5427] Truck-28 arrived at Side A
+[Time 5427] Truck-28 waiting 346 ms before return
+[Time 5427] Truck-28 unloaded at Side A
+[Time 5427] Minibus-16 arrived at Side A
+[Time 5427] Minibus-16 completed full round trip
+[Time 5427] Minibus-16 unloaded at Side A
+[Time 5427] Ferry unloading complete at Side A
+[Time 5427] Ferry loading begins at Side A
+[Time 5512] Ferry loaded Minibus-21 (load=2/20)
+[Time 5512] Minibus-21 boarded ferry (waited 4405 ms)
+[Time 5608] Ferry loaded Truck-22 (load=5/20)
+[Time 5608] Truck-22 boarded ferry (waited 4442 ms)
+[Time 5723] Ferry loaded Truck-24 (load=8/20)
+[Time 5723] Truck-24 boarded ferry (waited 4506 ms)
+[Time 5732] Car-6 approaching toll on Side A
+[Time 5732] Car-6 passed toll on Side A
+[Time 5774] Truck-28 approaching toll on Side A
+[Time 5774] Truck-28 passed toll on Side A
+[Time 5806] Ferry loaded Truck-26 (load=11/20)
+[Time 5806] Truck-26 boarded ferry (waited 4483 ms)
+[Time 5837] Car-6 joined queue on Side A (units=1)
+[Time 5840] Minibus-14 approaching toll on Side A
+[Time 5840] Minibus-14 passed toll on Side A
+[Time 5859] Car-7 approaching toll on Side A
+[Time 5875] Car-11 approaching toll on Side A
+[Time 5912] Ferry loaded Car-0 (load=12/20)
+[Time 5912] Car-0 boarded ferry (waited 3841 ms)
+[Time 5948] Minibus-14 joined queue on Side A (units=2)
+[Time 5948] Car-7 passed toll on Side A
+[Time 5950] Truck-28 joined queue on Side A (units=3)
+[Time 5950] Car-11 passed toll on Side A
+[Time 6040] Minibus-15 approaching toll on Side A
+[Time 6059] Ferry loaded Car-6 (load=13/20)
+[Time 6059] Car-6 boarded ferry (waited 222 ms)
+[Time 6119] Car-7 joined queue on Side A (units=1)
+[Time 6119] Minibus-15 passed toll on Side A
+[Time 6131] Car-11 joined queue on Side A (units=1)
+[Time 6165] Ferry loaded Minibus-14 (load=15/20)
+[Time 6165] Minibus-14 boarded ferry (waited 217 ms)
+[Time 6224] Minibus-15 joined queue on Side A (units=2)
+[Time 6243] Minibus-17 approaching toll on Side A
+[Time 6243] Minibus-17 passed toll on Side A
+[Time 6261] Truck-23 approaching toll on Side A
+[Time 6261] Truck-23 passed toll on Side A
+[Time 6283] Ferry loaded Truck-28 (load=18/20)
+[Time 6283] Truck-28 boarded ferry (waited 333 ms)
+[Time 6352] Minibus-17 joined queue on Side A (units=2)
+[Time 6359] Ferry loaded Car-7 (load=19/20)
+[Time 6359] Car-7 boarded ferry (waited 240 ms)
+[Time 6412] Truck-25 approaching toll on Side A
+[Time 6412] Truck-25 passed toll on Side A
+[Time 6420] Truck-23 joined queue on Side A (units=3)
+[Time 6474] Ferry loaded Car-11 (load=20/20)
+[Time 6474] Ferry departed from Side A with 20 units (10 vehicles)
+[Time 6474] Car-11 boarded ferry (waited 343 ms)
+[Time 6610] Truck-25 joined queue on Side A (units=3)
+[Time 7274] Ferry arrived at Side B
+[Time 7274] Ferry unloading begins at Side B
+[Time 7274] Minibus-21 arrived at Side B
+[Time 7274] Minibus-21 unloaded at Side B
+[Time 7274] Minibus-21 waiting 633 ms before return
+[Time 7274] Truck-22 arrived at Side B
+[Time 7274] Truck-22 waiting 630 ms before return
+[Time 7274] Truck-22 unloaded at Side B
+[Time 7274] Truck-24 arrived at Side B
+[Time 7274] Truck-24 unloaded at Side B
+[Time 7274] Truck-24 waiting 631 ms before return
+[Time 7274] Truck-26 arrived at Side B
+[Time 7274] Truck-26 waiting 815 ms before return
+[Time 7274] Truck-26 unloaded at Side B
+[Time 7274] Car-0 arrived at Side B
+[Time 7274] Car-0 completed full round trip
+[Time 7274] Car-0 unloaded at Side B
+[Time 7274] Car-6 arrived at Side B
+[Time 7274] Car-6 completed full round trip
+[Time 7274] Car-6 unloaded at Side B
+[Time 7274] Minibus-14 arrived at Side B
+[Time 7274] Minibus-14 unloaded at Side B
+[Time 7274] Minibus-14 completed full round trip
+[Time 7274] Truck-28 arrived at Side B
+[Time 7274] Truck-28 unloaded at Side B
+[Time 7274] Truck-28 completed full round trip
+[Time 7274] Car-7 arrived at Side B
+[Time 7274] Car-7 unloaded at Side B
+[Time 7274] Car-11 arrived at Side B
+[Time 7274] Car-11 completed full round trip
+[Time 7274] Car-7 completed full round trip
+[Time 7274] Car-11 unloaded at Side B
+[Time 7274] Ferry unloading complete at Side B
+[Time 7274] Ferry loading begins at Side B
+[Time 7373] Ferry loaded Truck-27 (load=3/20)
+[Time 7373] Truck-27 boarded ferry (waited 6386 ms)
+[Time 7471] Ferry loaded Truck-29 (load=6/20)
+[Time 7471] Truck-29 boarded ferry (waited 6434 ms)
+[Time 7570] Ferry loaded Minibus-12 (load=8/20)
+[Time 7570] Minibus-12 boarded ferry (waited 3500 ms)
+[Time 7696] Ferry loaded Car-10 (load=9/20)
+[Time 7696] Car-10 boarded ferry (waited 3564 ms)
+[Time 7784] Ferry loaded Minibus-19 (load=11/20)
+[Time 7784] Minibus-19 boarded ferry (waited 3612 ms)
+[Time 7874] Ferry loaded Minibus-13 (load=13/20)
+[Time 7874] Minibus-13 boarded ferry (waited 3594 ms)
+[Time 7905] Truck-22 approaching toll on Side B
+[Time 7905] Truck-22 passed toll on Side B
+[Time 7906] Truck-24 approaching toll on Side B
+[Time 7906] Truck-24 passed toll on Side B
+[Time 7908] Minibus-21 approaching toll on Side B
+[Time 7969] Ferry loaded Minibus-20 (load=15/20)
+[Time 7969] Minibus-20 boarded ferry (waited 3657 ms)
+[Time 8047] Truck-22 joined queue on Side B (units=3)
+[Time 8047] Minibus-21 passed toll on Side B
+[Time 8083] Ferry loaded Minibus-18 (load=17/20)
+[Time 8083] Minibus-18 boarded ferry (waited 3646 ms)
+[Time 8088] Truck-24 joined queue on Side B (units=3)
+[Time 8089] Truck-26 approaching toll on Side B
+[Time 8089] Truck-26 passed toll on Side B
+[Time 8208] Ferry loaded Car-9 (load=18/20)
+[Time 8208] Car-9 boarded ferry (waited 3761 ms)
+[Time 8213] Truck-26 joined queue on Side B (units=3)
+[Time 8234] Minibus-21 joined queue on Side B (units=2)
+[Time 8341] Ferry loaded Car-8 (load=19/20)
+[Time 8342] Car-8 boarded ferry (waited 3791 ms)
+[Time 8438] Ferry loaded Car-5 (load=20/20)
+[Time 8438] Ferry departed from Side B with 20 units (11 vehicles)
+[Time 8438] Car-5 boarded ferry (waited 3865 ms)
+[Time 9238] Ferry arrived at Side A
+[Time 9238] Ferry unloading begins at Side A
+[Time 9238] Truck-27 arrived at Side A
+[Time 9238] Truck-27 unloaded at Side A
+[Time 9238] Truck-27 waiting 665 ms before return
+[Time 9238] Truck-29 arrived at Side A
+[Time 9238] Truck-29 waiting 524 ms before return
+[Time 9238] Truck-29 unloaded at Side A
+[Time 9238] Minibus-12 arrived at Side A
+[Time 9238] Minibus-12 unloaded at Side A
+[Time 9238] Minibus-12 completed full round trip
+[Time 9238] Car-10 arrived at Side A
+[Time 9238] Car-10 unloaded at Side A
+[Time 9238] Car-10 completed full round trip
+[Time 9238] Minibus-19 arrived at Side A
+[Time 9238] Minibus-19 unloaded at Side A
+[Time 9238] Minibus-13 arrived at Side A
+[Time 9238] Minibus-13 unloaded at Side A
+[Time 9238] Minibus-13 completed full round trip
+[Time 9238] Minibus-20 arrived at Side A
+[Time 9238] Minibus-19 completed full round trip
+[Time 9238] Minibus-20 unloaded at Side A
+[Time 9238] Minibus-20 completed full round trip
+[Time 9238] Minibus-18 arrived at Side A
+[Time 9238] Minibus-18 unloaded at Side A
+[Time 9238] Minibus-18 completed full round trip
+[Time 9238] Car-9 arrived at Side A
+[Time 9238] Car-9 unloaded at Side A
+[Time 9238] Car-9 completed full round trip
+[Time 9238] Car-8 arrived at Side A
+[Time 9238] Car-8 unloaded at Side A
+[Time 9238] Car-8 completed full round trip
+[Time 9238] Car-5 arrived at Side A
+[Time 9238] Car-5 unloaded at Side A
+[Time 9238] Ferry unloading complete at Side A
+[Time 9238] Ferry loading begins at Side A
+[Time 9238] Car-5 completed full round trip
+[Time 9328] Ferry loaded Minibus-15 (load=2/20)
+[Time 9328] Minibus-15 boarded ferry (waited 3104 ms)
+[Time 9407] Ferry loaded Minibus-17 (load=4/20)
+[Time 9407] Minibus-17 boarded ferry (waited 3055 ms)
+[Time 9492] Ferry loaded Truck-23 (load=7/20)
+[Time 9492] Truck-23 boarded ferry (waited 3072 ms)
+[Time 9604] Ferry loaded Truck-25 (load=10/20)
+[Time 9604] Ferry departed from Side A with 10 units (4 vehicles)
+[Time 9604] Truck-25 boarded ferry (waited 2994 ms)
+[Time 9763] Truck-29 approaching toll on Side A
+[Time 9763] Truck-29 passed toll on Side A
+[Time 9904] Truck-27 approaching toll on Side A
+[Time 9904] Truck-27 passed toll on Side A
+[Time 9950] Truck-29 joined queue on Side A (units=3)
+[Time 10091] Truck-27 joined queue on Side A (units=3)
+[Time 10404] Ferry arrived at Side B
+[Time 10404] Ferry unloading begins at Side B
+[Time 10404] Minibus-15 arrived at Side B
+[Time 10404] Minibus-15 unloaded at Side B
+[Time 10404] Minibus-15 completed full round trip
+[Time 10404] Minibus-17 arrived at Side B
+[Time 10404] Minibus-17 unloaded at Side B
+[Time 10404] Minibus-17 completed full round trip
+[Time 10404] Truck-23 arrived at Side B
+[Time 10404] Truck-23 unloaded at Side B
+[Time 10404] Truck-23 completed full round trip
+[Time 10404] Truck-25 arrived at Side B
+[Time 10404] Truck-25 unloaded at Side B
+[Time 10404] Ferry unloading complete at Side B
+[Time 10404] Ferry loading begins at Side B
+[Time 10404] Truck-25 completed full round trip
+[Time 10539] Ferry loaded Car-3 (load=1/20)
+[Time 10539] Car-3 boarded ferry (waited 5809 ms)
+[Time 10664] Ferry loaded Car-1 (load=2/20)
+[Time 10664] Car-1 boarded ferry (waited 5903 ms)
+[Time 10808] Ferry loaded Car-4 (load=3/20)
+[Time 10808] Car-4 boarded ferry (waited 5958 ms)
+[Time 10944] Ferry loaded Truck-22 (load=6/20)
+[Time 10944] Truck-22 boarded ferry (waited 2897 ms)
+[Time 11077] Ferry loaded Truck-24 (load=9/20)
+[Time 11077] Truck-24 boarded ferry (waited 2989 ms)
+[Time 11167] Ferry loaded Truck-26 (load=12/20)
+[Time 11167] Truck-26 boarded ferry (waited 2954 ms)
+[Time 11276] Ferry loaded Minibus-21 (load=14/20)
+[Time 11276] Ferry departed from Side B with 14 units (7 vehicles)
+[Time 11276] Minibus-21 boarded ferry (waited 3042 ms)
+[Time 12076] Ferry arrived at Side A
+[Time 12076] Ferry unloading begins at Side A
+[Time 12076] Car-3 arrived at Side A
+[Time 12076] Car-3 unloaded at Side A
+[Time 12076] Car-3 completed full round trip
+[Time 12076] Car-1 arrived at Side A
+[Time 12076] Car-1 unloaded at Side A
+[Time 12076] Car-1 completed full round trip
+[Time 12076] Car-4 arrived at Side A
+[Time 12076] Car-4 unloaded at Side A
+[Time 12076] Car-4 completed full round trip
+[Time 12076] Truck-22 arrived at Side A
+[Time 12076] Truck-22 unloaded at Side A
+[Time 12076] Truck-24 arrived at Side A
+[Time 12076] Truck-24 completed full round trip
+[Time 12076] Truck-22 completed full round trip
+[Time 12076] Truck-24 unloaded at Side A
+[Time 12076] Truck-26 arrived at Side A
+[Time 12076] Truck-26 unloaded at Side A
+[Time 12076] Truck-26 completed full round trip
+[Time 12076] Minibus-21 arrived at Side A
+[Time 12076] Minibus-21 unloaded at Side A
+[Time 12076] Ferry unloading complete at Side A
+[Time 12076] Ferry loading begins at Side A
+[Time 12076] Minibus-21 completed full round trip
+[Time 12213] Ferry loaded Truck-29 (load=3/20)
+[Time 12213] Truck-29 boarded ferry (waited 2263 ms)
+[Time 12343] Ferry loaded Truck-27 (load=6/20)
+[Time 12343] Ferry departed from Side A with 6 units (2 vehicles)
+[Time 12343] Truck-27 boarded ferry (waited 2252 ms)
+[Time 13143] Ferry arrived at Side B
+[Time 13143] Ferry unloading begins at Side B
+[Time 13143] Truck-29 arrived at Side B
+[Time 13143] Truck-29 unloaded at Side B
+[Time 13143] Truck-29 completed full round trip
+[Time 13143] Truck-27 arrived at Side B
+[Time 13143] Truck-27 unloaded at Side B
+[Time 13143] Ferry unloading complete at Side B
+[Time 13143] Ferry loading begins at Side B
+[Time 13143] Truck-27 completed full round trip
+[Time 13243] Ferry thread finished
+
+=== SIMULATION STATISTICS ===
+Total simulation time : 13244 ms
+Total vehicles        : 30
+Ferry trips           : 8
+Average waiting time  : 2766.1 ms
+Maximum waiting time  : 6434 ms
+Ferry utilization     : 70.0%
