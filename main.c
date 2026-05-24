@@ -24,7 +24,7 @@
 #define YOLCULUK_MS 800
 #define DONUS_BEKLEME 500
 
-// araç tipleri
+// araç tipleri yeterince aciklayici
 typedef enum
 {
     ARABA = 0,
